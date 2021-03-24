@@ -1,4 +1,4 @@
-.exampleSite {
+.example-site {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -7,7 +7,7 @@
 	background-color: #eef4f5;
 }
 
-.orderSummary {
+.order-summary {
 	width: 200px;
 	padding: 15px;
 	border: 1px solid #000;
