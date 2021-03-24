@@ -1,10 +1,11 @@
 .save-cents-picker {
 	align-self: flex-end;
-	justify-self: center;
+	/* justify-self: center; */
 	width: 425px;
 	height: 500px;
 	padding: 0;
 	margin-right: 15px;
+	position: absolute;
 	z-index: 1;
 	color: var(--brown);
 }
