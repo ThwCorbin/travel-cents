@@ -1,0 +1,18 @@
+.exampleSite {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 1000px;
+	height: 1000px;
+	background-color: #eef4f5;
+}
+
+.orderSummary {
+	width: 200px;
+	padding: 15px;
+	border: 1px solid #000;
+}
+
+ul {
+	list-style: none;
+}
