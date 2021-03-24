@@ -1,7 +1,7 @@
 import React from "react";
 import "./SaveCents.css";
 import Button from "./Button";
-import house from "./travel-cents-house.png";
+import houseLogo from "./travel-cents-house.png";
 
 const SaveCents = () => {
 	let wordSay = "Hey";
@@ -15,7 +15,7 @@ const SaveCents = () => {
 		<div className="save-cents-picker">
 			<div className="save-cents-picker-top">
 				<p className="x-close">X</p>
-				<img src={house} alt="Travel Cent House" />
+				<img src={houseLogo} alt="Travel Cent House" />
 			</div>
 			<div className="save-cents-picker-middle">
 				<p>{wordsMiddle}</p>
