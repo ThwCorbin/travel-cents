@@ -1,0 +1,21 @@
+.save-cents-picker {
+	align-self: flex-end;
+	width: 425px;
+	height: 500px;
+	border-radius: 2%;
+	margin-right: 15px;
+}
+
+.save-cents-picker-top {
+	width: 100%;
+	height: 125px;
+	background-color: var(--red);
+	/* border-radius: 2% 2% 0 0; */
+}
+
+.save-cents-picker-middle {
+	width: 100%;
+	height: 375px;
+	background-color: var(--white-orange);
+	border-radius: 0 0 2% 2%;
+}
