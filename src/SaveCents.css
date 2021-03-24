@@ -55,3 +55,10 @@ hr {
 	background-color: var(--white-orange);
 	border-radius: 0 0 10px 10px;
 }
+
+.button-choices {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 15px;
+}
