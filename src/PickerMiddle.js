@@ -14,7 +14,7 @@ const PickerMiddle = ({ wordsSay, firstName }) => {
 	return (
 		<div className="save-cents-picker-middle">
 			<p className="p-words-for-user">{wordsForUser}</p>
-			<hr></hr>
+			<hr className="hr-picker"></hr>
 			<h5 className="h5-support-mission">{messageCallToAction}</h5>
 			<p className="p-support-mission">{messageMission}</p>
 		</div>

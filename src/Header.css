@@ -43,9 +43,9 @@ nav {
 	justify-content: space-around;
 }
 
-/* .header-h1 {
-	margin-bottom: 5px;
-} */
+li {
+	padding: 10px;
+}
 
 /* .travel-cents-logo {
 	max-width: 25px;
