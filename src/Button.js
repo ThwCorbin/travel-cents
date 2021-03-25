@@ -1,6 +1,6 @@
 import "./Button.css";
 
-const Button = ({ large, small, outline, label }) => {
+const Button = ({ large, small, outline, label, onClick }) => {
 	// Only using types "primary"
 	let classList = "button";
 
@@ -19,7 +19,11 @@ const Button = ({ large, small, outline, label }) => {
 		classList += ` button-outline`;
 	}
 
-	return <button className={classList}>{label}</button>;
+	return (
+		<button className={classList} onClick={onClick}>
+			{label}
+		</button>
+	);
 };
 
 export default Button;
