@@ -10,16 +10,16 @@ const Account = () => {
 		<div className="div-account-main">
 			<div className="div-user-name-account-activity">
 				<div className="div-user-name-funds">
-					<h2>Sarah's Account</h2>
+					<h2 className="h2-user-name">Sarah's Account</h2>
 					<hr className="hr-top" />
 					<hr className="hr-bottom" />
 					<section className="section-total-funds">
-						<h4>My Total Funds:</h4>
-						<p className="total-funds-amount">$24.52</p>
+						<h4 className="h4-total-funds">My Total Funds:</h4>
+						<p className="total-funds-amount">$242.42</p>
 					</section>
 				</div>
 				<div className="div-user-transactions">
-					<h4>Transaction History:</h4>
+					<h4 className="h4-transaction-history">Transaction History:</h4>
 					<section className="section-transactions">
 						<ul className="ul-data-field-names">
 							<li>Date</li>
@@ -66,11 +66,31 @@ const Account = () => {
 			</div>
 			<div className="div-hot-deals">
 				<h4 className="h4-hot-deals">This Week's Hot Deals</h4>
-				<div className="div-house-description">
-					<img src={houseOne} className="img-hot-deals-house" alt="House" />
+				<div className="div-houses-deals">
+					<div className="div-house-description">
+						<img src={houseOne} className="img-hot-deals-house" alt="House" />
+						<div className="div-house div-house-city">
+							<p>Cayucos, CA</p>
+							<p>$$</p>
+						</div>
+					</div>
+					<div className="deals">
+						<p>Save 15%</p>
+						<Button label="View" small />
+					</div>
 				</div>
-				<div className="div-house-description">
-					<img src={houseTwo} className="img-hot-deals-house" alt="House" />
+				<div className="div-houses-deals">
+					<div className="div-house-description">
+						<img src={houseTwo} className="img-hot-deals-house" alt="House" />
+						<div className="div-house div-house-city">
+							<p>Santa Cruz, CA</p>
+							<p>$$$</p>
+						</div>
+					</div>
+					<div className="deals">
+						<p>Save 10%</p>
+						<Button label="View" small />
+					</div>
 				</div>
 			</div>
 		</div>
