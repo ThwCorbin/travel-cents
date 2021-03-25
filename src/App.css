@@ -9,21 +9,3 @@
 	flex-direction: column;
 	align-items: center;
 }
-
-.App-header {
-	background-color: #ffffff;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	color: #000000;
-}
-
-.header-h1 {
-	margin-bottom: 5px;
-}
-
-.travel-cents-logo {
-	max-width: 25px;
-	margin-bottom: 5px;
-}
