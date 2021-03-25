@@ -29,31 +29,3 @@
 	margin: -25px auto 0;
 	z-index: 1;
 }
-
-.save-cents-picker-bottom {
-	width: 100%;
-	height: 200px;
-	background-color: var(--white-orange);
-	border-radius: 0 0 10px 10px;
-}
-
-.p-words-fund {
-	margin: 15px 50px 15px 50px;
-}
-
-.button-choices {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin: 15px 50px 15px 50px;
-}
-
-.button-funds-continue {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.p-continue-close {
-	font-size: 11px;
-}
