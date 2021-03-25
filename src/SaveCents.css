@@ -10,11 +10,6 @@
 	color: var(--brown);
 }
 
-/* p {
-	padding-top: 15px;
-	margin: 0 0 0 10%;
-} */
-
 .save-cents-picker-top {
 	display: flex;
 	flex-direction: column;
@@ -41,6 +36,10 @@
 	background-color: var(--white-orange);
 }
 
+.p-words-for-user {
+	margin: 75px 50px 15px 50px;
+}
+
 hr {
 	width: 80%;
 }
@@ -64,9 +63,23 @@ hr {
 	border-radius: 0 0 10px 10px;
 }
 
+.p-words-fund {
+	margin: 15px 50px 15px 50px;
+}
+
 .button-choices {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin: 15px;
+	margin: 15px 50px 15px 50px;
+}
+
+.button-funds-continue {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.p-continue-close {
+	font-size: 11px;
 }

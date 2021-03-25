@@ -3,9 +3,9 @@ import "./Button.css";
 
 const Button = (props) => {
 	// Only using types "primary"
-	let classList = "button button-primary";
+	let classList = "button";
 
-	// Check if large, small, outline, and/or haze props are true
+	// Check if large, small, and/or outline props are true
 	// Update classList variable
 	// must keep " " at String start to build "button button-primary" + " button-large"
 	if (props.large) {
@@ -17,19 +17,7 @@ const Button = (props) => {
 	}
 
 	if (props.outline) {
-		if (!props.type) {
-			classList += ` button-outline`;
-		} else {
-			classList += ` button-${props.type}-outline`;
-		}
-	}
-
-	if (props.haze) {
-		if (!props.type) {
-			classList += ` button-haze`;
-		} else {
-			classList += ` button-${props.type}-haze`;
-		}
+		classList += ` button-outline`;
 	}
 
 	return <button className={classList}>{props.label}</button>;
