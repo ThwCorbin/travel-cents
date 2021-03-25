@@ -7,6 +7,16 @@ header {
 	background-color: var(--red);
 }
 
+.header-h1,
+.header-h2,
+.header-h3 {
+	margin: 5px auto 5px;
+}
+
+.header-h2 {
+	color: var(--brown);
+}
+
 .header-e-comm-site {
 	color: var(--red);
 	background-color: var(--white-orange);
