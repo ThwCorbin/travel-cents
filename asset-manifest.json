@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/travel-cents/static/css/main.bff5d222.chunk.css",
-    "main.js": "/travel-cents/static/js/main.5e2d1277.chunk.js",
-    "main.js.map": "/travel-cents/static/js/main.5e2d1277.chunk.js.map",
+    "main.css": "/travel-cents/static/css/main.d5716fb8.chunk.css",
+    "main.js": "/travel-cents/static/js/main.7c04c728.chunk.js",
+    "main.js.map": "/travel-cents/static/js/main.7c04c728.chunk.js.map",
     "runtime-main.js": "/travel-cents/static/js/runtime-main.ec92df95.js",
     "runtime-main.js.map": "/travel-cents/static/js/runtime-main.ec92df95.js.map",
     "static/js/2.559cbe02.chunk.js": "/travel-cents/static/js/2.559cbe02.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.7401cea2.chunk.js": "/travel-cents/static/js/3.7401cea2.chunk.js",
     "static/js/3.7401cea2.chunk.js.map": "/travel-cents/static/js/3.7401cea2.chunk.js.map",
     "index.html": "/travel-cents/index.html",
-    "static/css/main.bff5d222.chunk.css.map": "/travel-cents/static/css/main.bff5d222.chunk.css.map",
+    "static/css/main.d5716fb8.chunk.css.map": "/travel-cents/static/css/main.d5716fb8.chunk.css.map",
     "static/js/2.559cbe02.chunk.js.LICENSE.txt": "/travel-cents/static/js/2.559cbe02.chunk.js.LICENSE.txt",
     "static/media/travel-cents-house.63a8cca4.png": "/travel-cents/static/media/travel-cents-house.63a8cca4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ec92df95.js",
     "static/js/2.559cbe02.chunk.js",
-    "static/css/main.bff5d222.chunk.css",
-    "static/js/main.5e2d1277.chunk.js"
+    "static/css/main.d5716fb8.chunk.css",
+    "static/js/main.7c04c728.chunk.js"
   ]
 }
