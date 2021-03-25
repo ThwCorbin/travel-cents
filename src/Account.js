@@ -1,6 +1,8 @@
 import Header from "./Header";
 import Button from "./Button";
 import "./Account.css";
+import houseOne from "./house-1.png";
+import houseTwo from "./house-2.png";
 // import logoHouse from "./travel-cents-house.png";
 
 const Account = () => {
@@ -64,8 +66,12 @@ const Account = () => {
 			</div>
 			<div className="div-hot-deals">
 				<h4 className="h4-hot-deals">This Week's Hot Deals</h4>
-				<div className="div-house-description"></div>
-				<div className="div-house-description"></div>
+				<div className="div-house-description">
+					<img src={houseOne} className="img-hot-deals-house" alt="House" />
+				</div>
+				<div className="div-house-description">
+					<img src={houseTwo} className="img-hot-deals-house" alt="House" />
+				</div>
 			</div>
 		</div>
 	);

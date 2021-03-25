@@ -79,4 +79,9 @@
 	height: 120px;
 	background-color: var(--red);
 	margin-bottom: 5px;
+	border-radius: 5px;
+}
+
+.img-hot-deals-house {
+	width: 120px;
 }
