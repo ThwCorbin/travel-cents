@@ -1,4 +1,3 @@
-import React from "react";
 import "./SaveCents.css";
 import Button from "./Button";
 import logoHouse from "./travel-cents-house.png";
