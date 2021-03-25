@@ -1,0 +1,25 @@
+.save-cents-picker-middle {
+	width: 100%;
+	height: 200px;
+	background-color: var(--white-orange);
+}
+
+.p-words-for-user {
+	margin: 75px 50px 15px 50px;
+}
+
+hr {
+	width: 80%;
+}
+
+.h5-support-mission {
+	font-size: 12px;
+	padding-right: 75px;
+	margin: 0 0 0 75px;
+}
+
+.p-support-mission {
+	font-size: 11px;
+	padding-right: 75px;
+	margin: 0 0 0 75px;
+}
