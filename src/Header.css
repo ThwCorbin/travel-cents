@@ -1,17 +1,43 @@
-.header {
-	background-color: var(--red);
+header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	width: 100%;
 	color: var(--white-orange);
+	background-color: var(--red);
 }
 
-.header-h1 {
+.header-e-comm-site {
+	color: var(--red);
+	background-color: var(--white-orange);
+}
+
+.header-travel-cents {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.header-logo-house {
+	width: 200px;
+	margin-bottom: -75px;
+	z-index: 1;
+}
+
+nav {
+	margin-left: auto;
+}
+
+.ul-nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+/* .header-h1 {
 	margin-bottom: 5px;
-}
+} */
 
-.travel-cents-logo {
+/* .travel-cents-logo {
 	max-width: 25px;
 	margin-bottom: 5px;
-}
+} */
