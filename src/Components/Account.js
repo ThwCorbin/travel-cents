@@ -1,8 +1,8 @@
 import Header from "./Header";
 import Button from "./Button";
 import "./Account.css";
-import houseOne from "./house-1.png";
-import houseTwo from "./house-2.png";
+import houseOne from "../assets/house-rect-1.png";
+import houseTwo from "../assets/house-rect-1.png";
 // import logoHouse from "./travel-cents-house.png";
 
 const Account = () => {

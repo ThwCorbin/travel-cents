@@ -1,7 +1,7 @@
-import Account from "./Account";
 import "./App.css";
-import ExampleEcomm from "./ExampleEcomm";
-import Header from "./Header";
+import ExampleEcomm from "./components/ExampleEcomm";
+import Account from "./components/Account";
+import Header from "./components/Header";
 
 function App() {
 	return (

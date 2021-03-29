@@ -1,5 +1,5 @@
 import "./Header.css";
-import logoHouse from "./travel-cents-house.png";
+import logoHouse from "../assets/travel-cents-house.png";
 
 const Header = ({ exampleECommSite }) => {
 	if (exampleECommSite) {
