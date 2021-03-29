@@ -1,10 +1,12 @@
 import React from "react";
+import Header from "./Header";
 import "./ExampleEcomm.css";
 import SaveCents from "./SaveCents";
 
 const ExampleEcomm = () => {
 	return (
 		<div className="example-site">
+			<Header exampleECommSite />
 			<h2>e-Commerce Site</h2>
 			<h3>Checkout Page</h3>
 			<SaveCents />

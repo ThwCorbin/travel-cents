@@ -6,9 +6,8 @@ import Header from "./Header";
 function App() {
 	return (
 		<div className="App">
-			<Header exampleECommSite />
-			{/* <ExampleEcomm /> */}
-			<Account />
+			<ExampleEcomm />
+			{/* <Account /> */}
 		</div>
 	);
 }
