@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./SaveCents.css";
 import PickerMiddle from "./PickerMiddle";
 import PickerBottom from "./PickerBottom";
-import logoHouse from "../assets/travel-cents-house.png";
+import logoHouse from "../assets/images/travel-cents-house.png";
 
 const SaveCents = ({ user, change }) => {
 	let firstName = user ? user.firstName : "Sarah";
