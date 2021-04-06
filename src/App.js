@@ -2,11 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 import logoHouse from "./assets/images/travel-cents-house.png";
-import number01 from "./assets/images/number-01";
+import number01 from "./assets/images/number-01.png";
 import womanLaptop from "./assets/images/woman-laptop.png";
-import number02 from "./assets/images/number-02";
+import number02 from "./assets/images/number-02.png";
 import pigStars from "./assets/images/pig-stars.png";
-import number03 from "./assets/images/number-03";
+import number03 from "./assets/images/number-03.png";
 import palmsPointer from "./assets/images/palms-pointer.png";
 import Button from "./components/Button";
 
