@@ -15,6 +15,12 @@ function App() {
 							<Link to="/">Home</Link>
 						</li>
 						<li>
+							<Link to="/demo">Demo</Link>
+						</li>
+						<li>
+							<Link to="/signup">Sign Up</Link>
+						</li>
+						<li>
 							<Link to="/lodging">Find Lodging</Link>
 						</li>
 						<li>
@@ -28,6 +34,12 @@ function App() {
 			</div>
 
 			<Switch>
+				<Route path="/demo">
+					<Demo />
+				</Route>
+				<Route path="/signup">
+					<Signup />
+				</Route>
 				<Route path="/lodging">
 					<Lodging />
 				</Route>
@@ -47,6 +59,14 @@ function App() {
 
 function Home() {
 	return <h2>Home</h2>;
+}
+
+function Demo() {
+	return <h2>Demo</h2>;
+}
+
+function Signup() {
+	return <h2>Sign Up</h2>;
 }
 
 function Lodging() {
