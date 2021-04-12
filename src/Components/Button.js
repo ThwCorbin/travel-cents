@@ -1,6 +1,6 @@
 import "./Button.css";
 
-const Button = ({ large, small, outline, label, onClick }) => {
+const Button = ({ large, small, outline, home, label, onClick }) => {
 	// Only using types "primary"
 	let classList = "button";
 
@@ -17,6 +17,10 @@ const Button = ({ large, small, outline, label, onClick }) => {
 
 	if (outline) {
 		classList += ` button-outline`;
+	}
+
+	if (home) {
+		classList += ` button-home`;
 	}
 
 	return (

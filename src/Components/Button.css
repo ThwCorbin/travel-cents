@@ -21,6 +21,12 @@ button {
 	background-color: transparent;
 }
 
+.button-home {
+	background-color: var(--rust);
+	border-color: var(--rust);
+	border-radius: 15px;
+}
+
 /** Hover *************** */
 button:hover {
 	filter: brightness(0.95);
