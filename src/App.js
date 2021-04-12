@@ -67,7 +67,7 @@ function App() {
 function Home() {
 	return (
 		<div>
-			<h2>It Just Makes Cents!</h2>
+			<h1>It Just Makes Cents!</h1>
 			<p>
 				We make saving for a vacation easy. We round up on the purchases that
 				you’re already making so you can save for an awesome getaway.
@@ -93,7 +93,7 @@ function Home() {
 
 			<h2>How it Works</h2>
 			<img src={number01} className="number number01" alt="1st" />
-			<h4>Join TravelCents for Free</h4>
+			<h3>Join TravelCents for Free</h3>
 			<img
 				src={womanLaptop}
 				className="user-flow-img user-flow-img-woman-laptop"
@@ -106,14 +106,14 @@ function Home() {
 				alt="Piggy bank and saving stars"
 			/>
 			<img src={number02} className="number number02" alt="2nd" />
-			<h2>Add to Your Funds</h2>
+			<h3>Add to Your Funds</h3>
 			<p>
 				Add to your Travel Funds as you shop. On each e-commerce purchase you
 				make, we’ll ask if you want to round up your total and add to your
 				funds.
 			</p>
 			<img src={number03} className="number number03" alt="3rd" />
-			<h2>Find Your Next Destination</h2>
+			<h3>Find Your Next Destination</h3>
 			<p>
 				Use your saved travel funds to find an awesome place to stay. We’ve
 				partnered with locally owned lodging around the country to bring you
