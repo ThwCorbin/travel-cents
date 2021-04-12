@@ -1,4 +1,4 @@
-@import-normalize; /* use normalize.css throughout all files */
+/** Fonts ********************************************** */
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway&display=swap");
 /* font-family: 'Oleo Script', cursive; */
 /* font-family: 'Raleway', sans-serif; */
@@ -9,17 +9,34 @@
 	--white-orange: #ecebea;
 }
 
-body {
+/** Reset ********************************************** */
+* {
+	padding: 0;
 	margin: 0;
-	/* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-		sans-serif; */
+	line-height: 1.2;
+}
+
+/** Elements ********************************************** */
+html {
 	font-family: "Raleway", sans-serif;
+	font-size: 16px;
+	margin: 0.25em;
+}
+
+body {
+	max-width: 50rem;
+	padding: 0 1rem;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-		monospace;
+ul {
+	list-style: none;
 }
+
+/* Better Comments https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments
+/*! Warning: A Palantir is a dangerous tool, Saruman. */
+/*? Question: Why? Why should we fear to use it? */
+/** Highlight: They are not all accounted for, the lost Seeing Stones. */
+/*// Strike - Friendship with Saruman is not lightly thrown aside! */
+/* todo: Leap off the Tower of Orthanc on to a giant eagle */

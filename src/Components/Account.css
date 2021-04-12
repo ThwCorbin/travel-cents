@@ -46,6 +46,7 @@
 }
 
 .total-funds-amount {
+	font-family: "Oleo Script", cursive;
 	font-size: 45px;
 	color: var(--red);
 	margin: 5px 0px 5px 250px;
