@@ -4,6 +4,7 @@ import "./App.css";
 import Account from "./components/Account";
 import Demo from "./components/Demo";
 import SignUp from "./components/SignUp";
+import Lodging from "./components/Lodging";
 import Button from "./components/Button";
 import Footer from "./components/Footer";
 import logoHouse from "./assets/images/travel-cents-house.png";
