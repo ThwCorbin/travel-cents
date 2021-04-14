@@ -1,0 +1,32 @@
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--white-orange);
+	padding: 2rem 3rem;
+	margin-top: 1rem;
+}
+
+.footer-about-media-links {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0;
+}
+
+.footer-about > li {
+	font-size: 0.75rem;
+	font-weight: bold;
+	padding: 0.15rem 0;
+	margin-bottom: 0;
+}
+
+.footer-logos-social-media {
+	/* * image 58px x 104px */
+	max-width: 58px;
+	margin-bottom: 0;
+}
+
+.footer-logo-house {
+	/* * image 210px x 150px */
+	max-height: 75px;
+}

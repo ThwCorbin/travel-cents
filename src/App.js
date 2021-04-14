@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 import Account from "./components/Account";
 import Button from "./components/Button";
+import Footer from "./components/Footer";
 import logoHouse from "./assets/images/travel-cents-house.png";
 import adventures from "./assets/images/adventures.png";
 import number01 from "./assets/images/number-01.png";
@@ -128,6 +129,7 @@ function Home() {
 				className="user-flow-img user-flow-img-palm-pointers"
 				alt="Travel pointer"
 			/>
+			<Footer />
 		</div>
 	);
 }
