@@ -130,23 +130,23 @@ function Home() {
 }
 
 function Demo() {
-	return <h2>Demo</h2>;
+	return <h1>Demo</h1>;
 }
 
 function Signup() {
-	return <h2>Sign Up</h2>;
+	return <h1>Sign Up</h1>;
 }
 
 function Lodging() {
-	return <h2>Find Lodging</h2>;
+	return <h1>Find Lodging</h1>;
 }
 
 function Partner() {
-	return <h2>Become a Partner</h2>;
+	return <h1>Become a Partner</h1>;
 }
 
 function Account() {
-	return <h2>My Account</h2>;
+	return <h1>My Account</h1>;
 }
 
 export default App;

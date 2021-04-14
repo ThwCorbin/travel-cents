@@ -29,6 +29,11 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+	font-family: "Oleo Script", cursive;
+	font-size: 2rem;
+}
+
 ul {
 	list-style: none;
 }
