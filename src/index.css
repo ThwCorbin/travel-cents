@@ -7,6 +7,7 @@
 	--brown: #504841;
 	--rust: #c05646;
 	--white-orange: #ecebea;
+	--blue-light: #b4cbcd;
 }
 
 /** Reset ********************************************** */
@@ -36,6 +37,29 @@ h1 {
 
 ul {
 	list-style: none;
+}
+
+li {
+	padding: 0.5rem;
+}
+
+/** lvfha ********************************************** */
+a:link,
+a:visited {
+	color: var(--brown);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:focus,
+a:hover {
+	color: var(--rust);
+	/* text-decoration: underline; */
+}
+
+a:active {
+	color: var(--blue-light);
+	text-decoration: underline;
 }
 
 /* Better Comments https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments

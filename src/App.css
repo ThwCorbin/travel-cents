@@ -2,20 +2,17 @@ header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	/* width: 100%; */
+	align-items: center;
 	color: var(--white-orange);
 	background-color: var(--red);
+	margin-bottom: 1rem;
 }
 
 .header-logo-house {
 	/* * image 210px x 150px */
-	max-height: 150px;
-	margin-bottom: -75px;
-	z-index: 1;
-}
-
-nav {
-	margin-left: auto;
+	max-height: 75px;
+	/* margin-bottom: -75px; */
+	/* z-index: 1; */
 }
 
 .ul-nav {
@@ -23,6 +20,7 @@ nav {
 	justify-content: space-around;
 }
 
-li {
-	padding: 10px;
+.span-cent {
+	font-size: 1.25em;
+	padding-right: 0.05em;
 }

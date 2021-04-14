@@ -68,7 +68,9 @@ function App() {
 function Home() {
 	return (
 		<div>
-			<h1>It Just Makes Cents!</h1>
+			<h1>
+				It Just Makes <span className="span-cent">¢</span>ents!
+			</h1>
 			<p>
 				We make saving for a vacation easy. We round up on the purchases that
 				you’re already making so you can save for an awesome getaway.
