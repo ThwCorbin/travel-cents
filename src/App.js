@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 import Account from "./components/Account";
+import Demo from "./components/Demo";
 import Button from "./components/Button";
 import Footer from "./components/Footer";
 import logoHouse from "./assets/images/travel-cents-house.png";
@@ -132,10 +133,6 @@ function Home() {
 			<Footer />
 		</div>
 	);
-}
-
-function Demo() {
-	return <h1>Demo</h1>;
 }
 
 function Signup() {
