@@ -5,6 +5,7 @@ import Account from "./components/Account";
 import Demo from "./components/Demo";
 import SignUp from "./components/SignUp";
 import Lodging from "./components/Lodging";
+import Partner from "./components/Partner";
 import Button from "./components/Button";
 import Footer from "./components/Footer";
 import logoHouse from "./assets/images/travel-cents-house.png";
@@ -135,14 +136,6 @@ function Home() {
 			<Footer />
 		</div>
 	);
-}
-
-function Lodging() {
-	return <h1>Find Lodging</h1>;
-}
-
-function Partner() {
-	return <h1>Become a Partner</h1>;
 }
 
 export default App;
