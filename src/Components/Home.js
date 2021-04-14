@@ -15,21 +15,22 @@ const Home = () => {
 			<h1>
 				It Just Makes <span className="span-cent">¢</span>ents!
 			</h1>
-			<p>
-				We make saving for a vacation easy. We round up on the purchases that
-				you’re already making so you can save for an awesome getaway.
-			</p>
-			<p>
-				We partner with small, locally owned hotels and bed and breakfasts to
-				support small buinesses.
-			</p>
-			<Button large home label={"Download Plug-in"} />
-			<img
-				src={adventures}
-				className="user-flow-img user-flow-img-adventures"
-				alt="Seek Your Own Adventures"
-			/>
-
+			<section className="section-seek-adventures">
+				<p>
+					We make saving for a vacation easy. We round up on the purchases that
+					you’re already making so you can save for an awesome getaway.
+				</p>
+				<p>
+					We partner with small, locally owned hotels and bed and breakfasts to
+					support small buinesses.
+				</p>
+				<Button large home label={"Download Plug-in"} />
+				<img
+					src={adventures}
+					className="user-flow-img user-flow-img-adventures"
+					alt="Seek Your Own Adventures"
+				/>
+			</section>
 			<h2>Why supporting Small Business Matters</h2>
 			<p>
 				Small businesses are the backbone of our economy. They accounted for 65%

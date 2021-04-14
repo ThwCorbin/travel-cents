@@ -6,6 +6,7 @@ import SignUp from "./components/SignUp";
 import Lodging from "./components/Lodging";
 import Partner from "./components/Partner";
 import Account from "./components/Account";
+import "./App.css";
 import logoHouse from "./assets/images/travel-cents-house.png";
 
 function App() {
