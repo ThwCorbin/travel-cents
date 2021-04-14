@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 import Account from "./components/Account";
 import Demo from "./components/Demo";
+import SignUp from "./components/SignUp";
 import Button from "./components/Button";
 import Footer from "./components/Footer";
 import logoHouse from "./assets/images/travel-cents-house.png";
@@ -51,7 +52,7 @@ function App() {
 					<Demo />
 				</Route>
 				<Route path="/signup">
-					<Signup />
+					<SignUp />
 				</Route>
 				<Route path="/lodging">
 					<Lodging />
@@ -133,10 +134,6 @@ function Home() {
 			<Footer />
 		</div>
 	);
-}
-
-function Signup() {
-	return <h1>Sign Up</h1>;
 }
 
 function Lodging() {
