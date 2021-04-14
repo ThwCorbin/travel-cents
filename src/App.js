@@ -14,7 +14,7 @@ import palmsPointer from "./assets/images/palms-pointer.png";
 function App() {
 	return (
 		<Router>
-			<div>
+			<header>
 				<img src={logoHouse} className="header-logo-house" alt="House Logo" />
 				<nav>
 					<ul>
@@ -38,9 +38,12 @@ function App() {
 						</li>
 					</ul>
 				</nav>
-			</div>
+			</header>
 
 			<Switch>
+				<Route exact path="/">
+					<Home />
+				</Route>
 				<Route path="/demo">
 					<Demo />
 				</Route>
@@ -55,9 +58,6 @@ function App() {
 				</Route>
 				<Route path="/account">
 					<Account />
-				</Route>
-				<Route path="/">
-					<Home />
 				</Route>
 			</Switch>
 		</Router>
