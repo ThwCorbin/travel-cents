@@ -32,7 +32,7 @@ function App() {
 							<Link to="/lodging">Find Lodging</Link>
 						</li>
 						<li>
-							<Link to="/partner">Become a Partner</Link>
+							<Link to="/partner">Partner</Link>
 						</li>
 						<li>
 							<Link to="/account">My Account</Link>

@@ -7,8 +7,8 @@ const Account = () => {
 	return (
 		<div className="div-account-main">
 			<div className="div-user-name-account-activity">
+				<h1>Sarah's Account</h1>
 				<div className="div-user-name-funds">
-					<h2 className="h2-user-name">Sarah's Account</h2>
 					<hr className="hr-top" />
 					<hr className="hr-bottom" />
 					<section className="section-total-funds">
