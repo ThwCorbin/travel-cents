@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
+import Account from "./components/Account";
 import Button from "./components/Button";
 import logoHouse from "./assets/images/travel-cents-house.png";
 import adventures from "./assets/images/adventures.png";
@@ -17,7 +18,7 @@ function App() {
 			<header>
 				<img src={logoHouse} className="header-logo-house" alt="House Logo" />
 				<nav>
-					<ul>
+					<ul className="ul-nav">
 						<li>
 							<Link to="/">Home</Link>
 						</li>
@@ -143,10 +144,6 @@ function Lodging() {
 
 function Partner() {
 	return <h1>Become a Partner</h1>;
-}
-
-function Account() {
-	return <h1>My Account</h1>;
 }
 
 export default App;
