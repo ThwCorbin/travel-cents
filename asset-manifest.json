@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/travel-cents/static/css/main.1e7e9d23.chunk.css",
-    "main.js": "/travel-cents/static/js/main.0e4e75e7.chunk.js",
-    "main.js.map": "/travel-cents/static/js/main.0e4e75e7.chunk.js.map",
-    "runtime-main.js": "/travel-cents/static/js/runtime-main.c87175ee.js",
-    "runtime-main.js.map": "/travel-cents/static/js/runtime-main.c87175ee.js.map",
-    "static/js/2.b0bcd658.chunk.js": "/travel-cents/static/js/2.b0bcd658.chunk.js",
-    "static/js/2.b0bcd658.chunk.js.map": "/travel-cents/static/js/2.b0bcd658.chunk.js.map",
-    "static/js/3.4c442f3b.chunk.js": "/travel-cents/static/js/3.4c442f3b.chunk.js",
-    "static/js/3.4c442f3b.chunk.js.map": "/travel-cents/static/js/3.4c442f3b.chunk.js.map",
+    "main.css": "/travel-cents/static/css/main.1b268496.chunk.css",
+    "main.js": "/travel-cents/static/js/main.14dd3a48.chunk.js",
+    "main.js.map": "/travel-cents/static/js/main.14dd3a48.chunk.js.map",
+    "runtime-main.js": "/travel-cents/static/js/runtime-main.1b49bf5e.js",
+    "runtime-main.js.map": "/travel-cents/static/js/runtime-main.1b49bf5e.js.map",
+    "static/js/2.003c18da.chunk.js": "/travel-cents/static/js/2.003c18da.chunk.js",
+    "static/js/2.003c18da.chunk.js.map": "/travel-cents/static/js/2.003c18da.chunk.js.map",
     "index.html": "/travel-cents/index.html",
-    "static/css/main.1e7e9d23.chunk.css.map": "/travel-cents/static/css/main.1e7e9d23.chunk.css.map",
-    "static/js/2.b0bcd658.chunk.js.LICENSE.txt": "/travel-cents/static/js/2.b0bcd658.chunk.js.LICENSE.txt",
-    "static/media/house-1.1d148686.png": "/travel-cents/static/media/house-1.1d148686.png",
-    "static/media/house-2.e86d5a01.png": "/travel-cents/static/media/house-2.e86d5a01.png",
-    "static/media/travel-cents-house.63a8cca4.png": "/travel-cents/static/media/travel-cents-house.63a8cca4.png"
+    "static/css/main.1b268496.chunk.css.map": "/travel-cents/static/css/main.1b268496.chunk.css.map",
+    "static/js/2.003c18da.chunk.js.LICENSE.txt": "/travel-cents/static/js/2.003c18da.chunk.js.LICENSE.txt",
+    "static/media/adventures.16dfd234.png": "/travel-cents/static/media/adventures.16dfd234.png",
+    "static/media/house-rect-1.1d148686.png": "/travel-cents/static/media/house-rect-1.1d148686.png",
+    "static/media/palms-pointer.495ef880.png": "/travel-cents/static/media/palms-pointer.495ef880.png",
+    "static/media/pig-stars.ca5f9294.png": "/travel-cents/static/media/pig-stars.ca5f9294.png",
+    "static/media/travel-cents-house.63a8cca4.png": "/travel-cents/static/media/travel-cents-house.63a8cca4.png",
+    "static/media/woman-laptop.75a4b6bd.png": "/travel-cents/static/media/woman-laptop.75a4b6bd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c87175ee.js",
-    "static/js/2.b0bcd658.chunk.js",
-    "static/css/main.1e7e9d23.chunk.css",
-    "static/js/main.0e4e75e7.chunk.js"
+    "static/js/runtime-main.1b49bf5e.js",
+    "static/js/2.003c18da.chunk.js",
+    "static/css/main.1b268496.chunk.css",
+    "static/js/main.14dd3a48.chunk.js"
   ]
 }
