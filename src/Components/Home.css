@@ -1,26 +1,80 @@
-header {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	color: var(--white-orange);
-	background-color: var(--red);
-	margin-bottom: 1rem;
+.h1-home {
+	padding-left: 3rem;
 }
-
-.header-logo-house {
-	/* * image 209px x 150px */
-	max-height: 75px;
-	/* margin-bottom: -75px; */
-	/* z-index: 1; */
-}
-
-.ul-nav {
-	display: flex;
-	justify-content: space-around;
-}
-
-.span-cent {
+.h1-span-cent {
 	font-size: 1.25em;
 	padding-right: 0.05em;
+}
+
+.div-sections-about-cents {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.section-home {
+	margin-top: 2rem;
+}
+
+.section-seek-adventures {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.div-about-travel-cents {
+	max-width: 20rem;
+}
+
+.img-adventures {
+	/* * image: 476px x 634px */
+	max-width: 15rem;
+	margin-top: -5rem;
+}
+
+.section-why-support {
+	display: flex;
+	flex-direction: column;
+	max-width: 40rem;
+	text-align: center;
+}
+
+.section-how-works {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.div-user-flow {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	max-height: 20rem;
+	margin-top: 2rem;
+}
+
+.div-user-flow-info {
+	max-width: 20rem;
+}
+
+.img-number {
+	/* * image: 96-119px x 144px */
+	max-height: 3rem;
+}
+
+.img-user-flow {
+	max-height: 20rem;
+}
+
+.img-woman-laptop {
+	margin-top: -1rem;
+}
+
+.div-user-flow-fund {
+	justify-content: flex-start;
+}
+
+.img-pig-stars {
+	margin-right: 2rem;
 }
