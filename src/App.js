@@ -11,7 +11,7 @@ import logoHouse from "./assets/images/travel-cents-house.png";
 
 function App() {
 	return (
-		<Router>
+		<Router basename="/travel-cents">
 			<header>
 				<img src={logoHouse} className="header-logo-house" alt="House Logo" />
 				<nav>
