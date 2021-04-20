@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/travel-cents/static/css/main.1b268496.chunk.css",
-    "main.js": "/travel-cents/static/js/main.14dd3a48.chunk.js",
-    "main.js.map": "/travel-cents/static/js/main.14dd3a48.chunk.js.map",
+    "main.js": "/travel-cents/static/js/main.8eb4321c.chunk.js",
+    "main.js.map": "/travel-cents/static/js/main.8eb4321c.chunk.js.map",
     "runtime-main.js": "/travel-cents/static/js/runtime-main.1b49bf5e.js",
     "runtime-main.js.map": "/travel-cents/static/js/runtime-main.1b49bf5e.js.map",
     "static/js/2.003c18da.chunk.js": "/travel-cents/static/js/2.003c18da.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.1b49bf5e.js",
     "static/js/2.003c18da.chunk.js",
     "static/css/main.1b268496.chunk.css",
-    "static/js/main.14dd3a48.chunk.js"
+    "static/js/main.8eb4321c.chunk.js"
   ]
 }
